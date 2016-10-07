@@ -1,0 +1,36 @@
+body{
+color: darkblue;
+font-family: Verdana;
+font-size: 0.9em;
+line-height: 1.4em;
+background-image: url(ejercicio10.jpg);
+}
+h1{
+  color: white;
+text-align: center;
+text-transform: capitalize;
+border: 1px;
+border-style: solid;
+padding: 10px;
+border-radius: 200px;
+background-image: url(ejercicio10h1.jpg);
+}
+p{
+  text-indent: 1cm;
+}
+a {
+  margin: 1em 0;
+  float: left;
+  clear: left;
+}
+.pdf {
+
+ padding: 0 0 0 18px;
+ background:  url(pdf.png) no-repeat left center;
+ background-size: 18px;
+}
+a:visited{
+  font-style: italic;
+  color:black;
+
+}
