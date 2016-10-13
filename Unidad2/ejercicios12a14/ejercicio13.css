@@ -1,0 +1,47 @@
+ul {
+	list-style-type: square;
+	background-color: #F2F2F2;
+	width: 140px;
+	color: gray;
+
+}
+
+.submenu1 ul, .submenu4 ul {
+	display: none;
+}
+
+.submenu1:hover ul, .submenu4:hover ul {
+	display: block;
+}
+
+.flecha {
+	display: none;
+}
+
+.submenu1:hover .flecha, .submenu4:hover .flecha {
+	display: inline;
+}
+
+#firstUL {
+	list-style-type: none;
+	width: 180px;
+    border: 1px solid gray;
+    padding: 0px;
+}
+
+li {
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	padding: 3px;
+	padding-left: 20px;
+	margin: -1px;
+}
+
+li ul {
+	padding-left: 20px;
+}
+
+li:hover {
+	background-color: darkgray;
+	color: green;
+}
